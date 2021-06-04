@@ -1,0 +1,266 @@
+
+
+    /*Container Cards*/
+    .container-card-sobre{
+        width:100%;
+        height: auto;
+        margin: 20px 0px 5px 0px ;
+        display: flex;
+        justify-content: center;
+    }
+    /* Final Container Cards*/
+
+    /*Titulo Sobre*/
+    .titulo-sobre{
+        color: #FA8933;
+        font-family: 'Roboto',sans-serif;
+        font-weight: 400;
+        font-size: 60px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase ;
+        margin: 5px;
+        display: flex;
+        justify-content: center;
+    }
+        /* Final Titulo Sobre*/
+
+        /*Cards*/
+    .card-estetica{
+        background: #434343;
+        border-radius: 20px;
+        width: 400px;
+        height: auto;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    .card-lavajato{
+        background: #434343;
+        border-radius: 20px;
+        width: 400px;
+        height: auto;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    
+    
+    .icon-x{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        width: 300px;
+        height: auto;
+        padding: 10px;
+    }
+    
+    .icon-x i{
+        font-size: 100px;
+        color: #FA8933 ;
+    }
+    /* Final Cards*/
+    
+    /*config usada para icones nos cards
+    
+    .card-img{
+        display: flex;
+        justify-content: center;
+        font-size: 80px;
+        margin: 20px 0px;    
+    }
+    
+    .card-1{  Add Img 
+        background-image: url('../');
+    
+    }.card-2{  Add Img 
+        background-image: url('../');
+    
+    }.card-3{  Add Img 
+        background-image: url('../');
+    
+    }
+    */
+    
+    
+    .card h2{
+        padding: 10px;
+    }
+    
+    .card p{
+        padding: 10px;
+    }
+    
+    .card-estetica h2,
+    .card-lavajato h2{
+        color: #fff;
+        font-size: 50px;
+        font-family: 'Roboto',sans-serif;
+        font-weight: 400;
+        margin: 30px 0px 40px 0px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    
+    .card-estetica p,
+    .card-lavajato p{
+        color: #B5B5B5;
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 15px;
+        letter-spacing: 0.1em;
+        line-height: 190%;
+        text-align: center;
+    }
+    .card-lavajato p em{   
+        color: #B1241E;
+        font-style: italic;
+        font-size: 17px;
+        font-weight: 500;
+        letter-spacing: 0.1em;
+    }
+    .container-card-sobre strong{
+    color: #B1241E;
+    }
+    
+    
+    
+
+
+.container-card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+.card{
+    background: #fff;
+    border-radius: 20px;
+    font-family: 'Poppins',sans-serif;
+    width: 350px;
+    height: auto;
+    margin: 30px 50px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    transition: 0.7s;
+}
+
+.card:hover{
+  
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 1s ease;
+    }
+
+.card-img{
+    border-radius:10px;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    
+}
+/*config usada para icones nos cards
+    
+    .card-img{
+        display: flex;
+        justify-content: center;
+        font-size: 80px;
+        margin: 20px 0px;    
+    }
+    */
+.card-1{ 
+    background-image: url('../img/Snow-Foam-Full.jpg');
+
+}.card-2{   
+    background-image: url('../');
+
+}.card-3{  
+    background-image: url('../');
+
+}
+
+
+.card ul{
+    margin-left: 5px;
+}
+
+.card h2{
+    font-weight: 700;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.card p{
+    padding: 10px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.card ul li{
+    font-family: 'Poppins';
+    font-size: 20px ;
+    font-weight: 500;
+    padding: 2px;
+    letter-spacing: 1px;
+    line-height: 23px;
+}
+
+.card a{
+    background-color: #FA8933;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.6s;
+}
+
+.card a:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: all 1s ease;
+}
+
+
+article{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: #B1241E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+article a{
+        text-transform: uppercase;
+        color: white;
+        font-family: 'Roboto',sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        background-color: #FA8933;
+        border: #FA8933 solid 2px;
+        border-radius: 10px;
+        padding: 20px;
+        transition: .7s;
+        text-decoration: none;
+    }
+    
+    article a:hover{
+    text-transform: uppercase;
+    color: #fff;
+    background-color:#d3742c ;
+    border: #d3742c solid 2px;
+    transform: scale(1.05);
+    transition: all 1s ease;
+    }

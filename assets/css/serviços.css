@@ -1,0 +1,63 @@
+*{
+  font-family: sans-serif;
+}
+
+.container-card-services{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img-card{
+  background-color: #a8a8a8;
+  height: 200px;
+}
+
+.box{
+  width: 350px;
+  height: auto;
+  margin: 50px 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 5px rgba( 0, 0, 0, 0.15);
+  transition: 0.7s;
+}
+.box:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 1s ease;
+  }
+  
+.box h4{
+  margin-bottom: 10px;
+}
+
+.box p{
+  font-size: 15px;
+  line-height: 30px;
+  height: 90px;
+  overflow: hidden;
+}
+
+.box a{
+  display: inline-block;
+  width: auto;
+  color: #fff;
+  background-color:royalblue;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.box a:hove{
+  box-shadow: 0 5px 5px rgba( 0, 0, 0, 0.2);
+}
+
+.box.aparecer p{
+  height: auto;
+}
+.box.aparecer a.lermais-btn{
+  background-color: red;
+}

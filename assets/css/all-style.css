@@ -1,0 +1,25 @@
+/* Importação de Fonts */
+@import url('../css/font.css');
+
+/* Reset Da Pag */
+@import url('../css/reset.css');
+
+/* Style Header */
+@import url('../css/header.css');
+
+/* Mobile Header */
+@import url('../css/mobile-header.css');
+
+/* Style Main */
+@import url('../css/main.css');
+
+/* Mobile Main */
+@import url('../css/main-mobile.css');
+
+/* Style Local Info */
+@import url('../css/local-info.css');
+
+/* Style Footer */
+@import url('../css/footer.css');
+
+/*Style Services Only Page Services*/

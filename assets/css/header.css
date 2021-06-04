@@ -1,0 +1,171 @@
+
+
+/*Nav-Bar*/
+
+/*Container e Imagem*/
+.header-container{
+    max-width:2560px;
+    width:100%;
+    height: 650px;
+    background-image: url('../img/img-header.png');
+    background-position-y: -50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* Final Container e Imagem*/
+
+/*Logo*/
+.logo{
+    max-width: 200px;
+    width: 100%;
+    height: 76px;
+    margin: 30px 0px 0px 20px;
+}
+
+/* Final Logo*/
+
+/*Nav Bar - Container Menu*/
+nav.nav-bar{
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    padding-top: 20px;
+}
+
+.menu-icon,
+.menu-inner{
+    display: none;
+}
+
+/*Final Nav Bar - Container Menu*/
+
+/*Final Nav-Bar*/
+
+/*Content Header*/
+
+
+.content-header{
+    color: white;
+}
+
+/*Style Fonts */
+.content-header h1{
+    max-width: 700px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 80px;
+    margin: 40px 0px 20px 40px ;
+}
+
+.content-header h4{
+    max-width: 700px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0px 0px 20px 40px ;
+    letter-spacing: 3px;
+}
+
+.content-header p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    max-width: 1000px;
+    margin: 0px 0px 20px 40px ;
+    letter-spacing: 0.05em;
+}
+/*Final Style Fonts */
+
+/*Style Botão */
+button.btn{
+    background-color: #FA8933;
+    border: #FA8933 solid 2px;
+    border-radius: 10px;
+    margin: 25px 40px;
+    padding: 10px;
+    transition: .7s;
+}
+
+button.btn:hover{
+    text-transform: uppercase;
+    color: #fff;
+    background-color:#d3742c ;
+    border: #d3742c solid 2px;
+    transform: scale(1.05);
+    transition: all 1s ease;
+}
+
+button.btn a{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+}
+
+/*Final Style Botão */
+
+/*Menu Bar Desktop*/
+    .menu-bar-mobile{
+        display: none;
+    }
+            
+    .menu-bar-desktop{
+        float: left;
+    }
+
+/*Menu Desktop Container*/
+    .menu-bar-desktop{
+        justify-content: space-between;
+        display:flex;
+        align-items: center;
+    }
+/* Final Menu Desktop Container*/
+
+    .menu-bar-desktop ul{
+        margin-right: 100px;
+
+    }
+
+    .menu-bar-desktop li{
+        align-items: center;
+        float: left;
+        margin-right: 20px;
+        padding: 10px 15px;
+        
+
+    }
+    
+    .menu-bar-desktop a{
+        text-decoration: none;
+        font-family: 'Roboto';
+        font-weight: 300px ;
+        font-size: 24px;
+        color: #fff;
+    }
+
+    
+
+    .login{
+        background-color:#FA8933 ;
+        border: #FA8933 solid 2px;
+        border-radius: 10px;
+        transition: .7s;
+        
+    }
+   
+
+  .login:hover{
+      background-color: transparent;
+      border: #FA8933 solid 2px;
+      transform: scale(1.05);
+      transition: all 1s ease;
+  }
+  
+  .login-btn{
+      display: none;
+  }
+    /*Final Menu Bar Desktop*/
+
+    /*Final Conteudo Do Header*/

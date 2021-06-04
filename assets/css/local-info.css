@@ -1,0 +1,83 @@
+/*Config Section*/
+.info{
+    width: 100%;
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*Titulo*/
+.tittle-local{
+    color: #FA8933;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin: 30px;
+}
+
+.maps-ggl{
+    width: 375px;
+    height: 355px;
+    border-radius: 20px;
+}
+
+
+.container-content h2{
+    color: white;
+}
+
+.dia,
+.time{
+    color: #fff;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.dia{
+    font-size: 28;
+}
+
+.time{
+    font-size: 27px;
+}
+
+.media-1,
+.media-2,
+.media-3 {
+    margin: 10px 5px;
+    width: 60px;
+    height: 60px;
+    border: #FA8933 4px solid;
+    border-radius: 50px;
+    text-align: center;
+    transition: .5s;
+}
+
+.media-1:hover,
+.media-2:hover,
+.media-3:hover {
+    transform: scale(1.09);
+    transition: all 1s ease;
+}
+
+.media-1,
+.media-2,
+.media-3, i{
+    color: white;
+}
+
+.social-midia{
+    display: flex;
+}
+
+.social-midia i{
+    margin: 10px;
+}
+
+.container-content{
+    text-align: center;
+    margin: 20px auto;
+}
