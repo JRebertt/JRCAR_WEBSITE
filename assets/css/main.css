@@ -131,6 +131,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    position: relative;
 }
 
 
@@ -162,7 +163,7 @@
     height: 170px;
     margin-bottom: 15px;
     background-size: cover;
-    
+    background-position:left;   
 }
 /*config usada para icones nos cards
     
@@ -181,7 +182,6 @@
 
 }.card-3{  
     background-image: url('../img/estofados.png');
-
 }
 
 
@@ -228,6 +228,15 @@
     transition: all 1s ease;
 }
 
+.circulo{
+    position: absolute;
+    background-image: url('../img/cicle-desk.png');
+    background-size: cover;
+    width: 40%;
+    height: 100%;
+    right: 0px;
+    bottom: -90%;
+}
 
 article{
     width: 100%;

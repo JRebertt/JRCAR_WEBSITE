@@ -49,11 +49,12 @@ table {
 
 *{
     box-sizing: border-box;
+	font-family: sans-serif;
 }
-
+html,
 body{
+	overflow-x: hidden ;
 	background-color: #333333;
-
 }
 
 /* Scroll Bar */

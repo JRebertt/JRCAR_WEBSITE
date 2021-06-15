@@ -53,6 +53,15 @@
         height: auto;
         padding: 10px;
     }
+
+    .circulo {
+        position: absolute;
+        width: 115%;
+        height: 100%;
+        right: 0px;
+        bottom: -250%;
+    }
+    }
         
 }
 
