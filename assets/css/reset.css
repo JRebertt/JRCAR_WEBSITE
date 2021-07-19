@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	text-decoration: none;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -72,6 +73,8 @@ body{
         45deg , #FA8933 , #E06100 );
         border-radius: 40px;
 }
+
+/* Final Scroll Bar */
 
 .mg-top{
 	margin-top: 30px;

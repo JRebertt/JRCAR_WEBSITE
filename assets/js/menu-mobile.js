@@ -25,6 +25,7 @@
             body.classList.add(bodyClass);
         }, 0);
     }
+
     
     function closeMenu() {
         body.classList.remove(bodyClass);

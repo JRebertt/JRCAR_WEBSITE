@@ -84,8 +84,10 @@
       .menu-active .menu {
         transform: translateX(0);
       }
+
       .menu {
         display: none;
+        height: 100vh;
         justify-content: center;
         align-items: center;
         position: fixed;
@@ -95,8 +97,7 @@
         right: 0;
         background-color: #B1241E;
         color: white;
-        overflow-y: auto;
-        overflow-x: hidden;
+        overflow: hidden;
         z-index: 1030;
         transform: translateX(-100%);
         transition: transform 300ms cubic-bezier(.2, 0, .2, 1);
@@ -107,12 +108,20 @@
       }
 
       .menu-inner li{
-          cursor: pointer;
-          font-size: 20px;
-            font-family: 'Roboto';
-            text-decoration: none;
+            cursor: pointer;
             padding: 10px;
             text-align: center;
+      }
+
+      .menu-inner li a{
+        color: #ffff;
+        font-size: 30px;
+        font-family: 'Roboto';
+        text-decoration: none;
+      }
+
+      .menu-inner li a:hover{
+        color: #FA8933;
       }
 
      /*Container Menu*/

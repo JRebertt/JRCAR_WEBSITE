@@ -1,4 +1,16 @@
 
+@media screen and (max-width:1440px) {
+    .circulo {
+        position: absolute;
+        width: 40%;
+        height: 100%;
+        right: 0px;
+        bottom: -175%;
+    
+        }
+    
+}
+
 
 
 @media screen and (max-width:1000px) {
@@ -56,12 +68,12 @@
 
     .circulo {
         position: absolute;
-        width: 115%;
+        width: 50%;
         height: 100%;
         right: 0px;
-        bottom: -250%;
-    }
-    }
+        bottom: -265%;
+        }
+    
         
 }
 
@@ -69,5 +81,13 @@
     .titulo-sobre{
         font-size: 23px;
     }
+
+    .circulo {
+        position: absolute;
+        width: 80%;
+        height: 100%;
+        right: 0px;
+        bottom: -280%%;
+        }
     
 }
